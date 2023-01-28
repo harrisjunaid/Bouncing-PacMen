@@ -4,8 +4,6 @@ Game to learn DOM and call back functions
 
 <a name="readme-top"></a>
 
-<h3 align="center">project_title</h3>
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -23,12 +21,11 @@ Game to learn DOM and call back functions
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+       <li><a href="#roadmap">Roadmap</a></li>
+   
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+   
   </ol>
 </details>
 
@@ -36,20 +33,13 @@ Game to learn DOM and call back functions
 
 ## About The Project
 
-<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
+Its logic is based on the addition of an image to the DOM and the recording of its x and y coordinates and x and y velocities. Scale for velocity ranges from 0 to 10 while scale for velocity ranges from 0 to 200. The callback makePac() returns an object with velocity and position, as well as an image tag pointer. It is pushed into the pacMen array using the pacMen.push method. The 'Timeout' calling function, update(), calls itself. The 'position' and'velocity' attributes in the shadow DOM. This then updates it in the actual DOM. The 'checkCollisions' method detects collisions by computing element velocity and width in advance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
-
-- [![Next][next.js]][next-url]
-- [![React][react.js]][react-url]
-- [![Vue][vue.js]][vue-url]
-- [![Angular][angular.io]][angular-url]
-- [![Svelte][svelte.dev]][svelte-url]
-- [![Laravel][laravel.com]][laravel-url]
-- [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url]
+- HTML
+- Java Script
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,43 +47,19 @@ Game to learn DOM and call back functions
 
 ## Getting Started
 
-<!-- This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps. -->
+Download the project zip file or fork the repository. Run the index.html file and click "start game" button.
 
 ### Prerequisites
-
-<!-- This is an example of how to
--list things you need to use the software
--how to install them. -->
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- There are no required prerequisites.
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [ ] add new PacMan with new images
+- [ ] add new PacMan with varying sizes
+- [ ] add a PacMan delete button
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
