@@ -15,7 +15,6 @@ Game to learn DOM and call back functions
     <li><a href="#installation">Installation</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
    </ul>
   </details>
 
